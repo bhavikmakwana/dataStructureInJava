@@ -11,11 +11,19 @@ public class StackWithOtherBase {
             stk[top] = v;
         }
 
+
     }
 
     public void pop(){
-        top--;
-        int temp = stk[top];
+        if (top == -1){
+            System.err.println("Stack Underflow");
+        }else{
+            top--;
+            int temp = stk[top];
+            top--;
+
+        }
+
 
     }
 
