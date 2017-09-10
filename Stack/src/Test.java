@@ -8,10 +8,10 @@ public class Test {
 
     public static void main(String[] args) {
         System.out.println("Welcome to Stack");
-        Scanner scanner = new Scanner(System.in);
+        /*Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the size of Stack");
         int size = scanner.nextInt();
-        Stack stack = new Stack(size);
+        Stack stack =tac new Stack(size);
         while (true) {
             System.out.println("########## Menu ##########");
             System.out.println("1.Push");
@@ -45,5 +45,12 @@ public class Test {
             }
 
         }
+*/
+        StackWithOtherBase stk = new StackWithOtherBase();
+        stk.push(10);
+        stk.push(20);
+        stk.push(30);
+        stk.push(40);
+        stk.display();
     }
 }
